@@ -33,12 +33,12 @@ ENT_2 = KC.LT(2, KC.ENT)
 #다기능HOLDTAP
 TAB_ESC=KC.HT(KC.TAB, KC.ESC, prefer_hold=False)
 
-
+#KC.LGUI -> command,win 
 KMKKeyboard.keymap = [
     [  #레이어0
-           TAB_ESC,   KC.Q,      KC.W,    KC.E,    KC.R,    KC.T,                         KC.Y,    KC.U,    KC.I,    KC.O,    KC.P,  KC.BSPC,\
-           KC.LSFT,   KC.A,      KC.S,    KC.D,    KC.F,    KC.G,                         KC.H,    KC.J,    KC.K,    KC.L, KC.SCLN,  KC.QUOT,\
-           KC.LCTL,  KC.Z,      KC.X,    KC.C,    KC.V,    KC.B,                         KC.N,    KC.M, KC.COMM,  KC.DOT, KC.SLSH,  KC.BSLS,\
+           KC.LALT,   KC.Q,      KC.W,    KC.E,    KC.R,    KC.T,                         KC.Y,    KC.U,    KC.I,    KC.O,    KC.P,  KC.BSPC,\
+           KC.LCTL,   KC.A,      KC.S,    KC.D,    KC.F,    KC.G,                         KC.H,    KC.J,    KC.K,    KC.L, KC.SCLN,  KC.QUOT,\
+           KC.LSFT,  KC.Z,      KC.X,    KC.C,    KC.V,    KC.B,                         KC.N,    KC.M, KC.COMM,  KC.DOT, KC.SLSH,  KC.BSLS,\
                                              KC.LGUI, KC.LALT, SPC_1,            ENT_2,  KC.MO(3), KC.CAPS,
         ],
         [  #숫자1
