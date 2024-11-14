@@ -39,7 +39,7 @@ KMKKeyboard.keymap = [
            KC.LALT,   KC.Q,      KC.W,    KC.E,    KC.R,    KC.T,                         KC.Y,    KC.U,    KC.I,    KC.O,    KC.P,  KC.GRV,\
            KC.LCTL,   KC.A,      KC.S,    KC.D,    KC.F,    KC.G,                         KC.H,    KC.J,    KC.K,    KC.L, KC.MS_UP,  KC.TAB,\
            KC.LSFT,  KC.Z,      KC.X,    KC.C,    KC.V,    KC.B,                         KC.N,    KC.M, KC.SLSH,  KC.MS_LT, KC.MS_DN,  KC.MS_RT,\
-                                             KC.MB_LMB, KC.LALT, SPC_1,            BSPC_2,  ENT_3, KC.RGUI,
+                                             KC.MB_LMB, KC.MB_RMB, SPC_1,            BSPC_2,  ENT_3, KC.RGUI,
         ],
         [  #숫자1
              KC.GRV,   KC.N1,   KC.N2,     KC.N3,    KC.N4,   KC.N5,                           KC.N6,   KC.N7,   KC.N8,   KC.N9,   KC.N0, KC.TRNS,\
