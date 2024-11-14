@@ -30,6 +30,7 @@ keyboard.modules.append(JOYstick(x=keyboard.Xpin, y=keyboard.Ypin))
 SPC_1 = KC.LT(1, KC.SPC)#홀드시 레이어 1，탭시 SPC
 BSPC_2 = KC.LT(2, KC.BSPC)
 ENT_3 = KC.LT(3, KC.ENT)
+
 #다기능HOLDTAP
 TAB_ESC=KC.HT(KC.TAB, KC.ESC, prefer_hold=False)
 
@@ -43,14 +44,14 @@ KMKKeyboard.keymap = [
         ],
         [  #숫자1
              KC.GRV,   KC.N1,   KC.N2,     KC.N3,    KC.N4,   KC.N5,                           KC.N6,   KC.N7,   KC.N8,   KC.N9,   KC.N0, KC.TRNS,\
-            KC.TRNS, KC.TRNS, KC.TRNS,   KC.UP,  KC.TRNS, KC.MINS,                          KC.BSLS, KC.SCLN,   KC.QUOT, KC.LBRC, KC.MW_UP, KC.TRNS,\
-            KC.TRNS, KC.TRNS, KC.LEFT,   KC.DOWN,  KC.RGHT, KC.GRV,                         KC.COMM, KC.DOT, KC.SLSH, KC.EQL, KC.MW_DOWN, KC.TRNS,\
+            KC.TRNS, KC.TRNS, KC.TRNS,   KC.UP,  KC.TRNS, KC.MINS,                          KC.BSLS, KC.SCLN,   KC.QUOT, KC.LBRC, KC.RBRC, KC.TRNS,\
+            KC.TRNS, KC.TRNS, KC.LEFT,   KC.DOWN,  KC.RGHT, KC.GRV,                         KC.COMM, KC.DOT, KC.SLSH, KC.EQL, KC.TRNS, KC.TRNS,\
                                                 KC.TRNS, KC.TRNS,KC.TRNS,        KC.TRNS,  KC.TRNS, KC.TRNS,
         ],
         [  #기능2
              KC.TRNS,   KC.F1,   KC.F2,     KC.F3,    KC.F4,   KC.F5,                           KC.F6,     KC.F7,     KC.F8,   KC.F9 ,  KC.F10,  KC.F11,\
-            KC.TRNS, KC.TRNS, KC.TRNS,   KC.TRNS,  KC.TRNS, KC.TRNS,                       KC.TRNS, KC.TRNS, KC.TRNS,  KC.TRNS, KC.TRNS,  KC.F12,\
-            KC.TRNS, KC.TRNS, KC.TRNS,   KC.TRNS,  KC.TRNS, KC.TRNS,                         KC.TRNS,   KC.TRNS,   KC.TRNS,  KC.TRNS, KC.TRNS, KC.TRNS,\
+            KC.TRNS, KC.TRNS, KC.TRNS,   KC.TRNS,  KC.TRNS, KC.TRNS,                       KC.TRNS, KC.TRNS, KC.TRNS,  KC.TRNS, KC.MW_UP,  KC.F12,\
+            KC.TRNS, KC.TRNS, KC.TRNS,   KC.TRNS,  KC.TRNS, KC.TRNS,                         KC.TRNS,   KC.TRNS,   KC.TRNS,  KC.TRNS, KC.MW_DN, KC.TRNS,\
                                                 KC.TRNS, KC.TRNS,KC.TRNS,    KC.TRNS,  KC.TRNS, KC.TRNS,
         ],
         [  #기능3
