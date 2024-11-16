@@ -1,6 +1,6 @@
 # Corne with joystick 셋팅
 
-![image](./corne.jpg)
+![image](corne.jpg)
 
 KMK를 이용하여 셋팅
 - https://github.com/KMKfw/kmk_firmware
