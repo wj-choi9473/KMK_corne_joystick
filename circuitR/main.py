@@ -37,7 +37,7 @@ TAB_ESC=KC.HT(KC.TAB, KC.ESC, prefer_hold=False)
 
 KMKKeyboard.keymap = [
     [  #레이어0
-           KC.LALT,   KC.Q,      KC.W,    KC.E,    KC.R,    KC.T,                         KC.Y,    KC.U,    KC.I,    KC.O,    KC.P,  KC.GRV,\
+           KC.LALT,   KC.Q,      KC.W,    KC.E,    KC.R,    KC.T,                         KC.Y,    KC.U,    KC.I,    KC.O,    KC.P,  KC.ESC,\
            KC.LCTL,   KC.A,      KC.S,    KC.D,    KC.F,    KC.G,                         KC.H,    KC.J,    KC.K,    KC.L, KC.MS_UP,  KC.TAB,\
            KC.LSFT,  KC.Z,      KC.X,    KC.C,    KC.V,    KC.B,                         KC.N,    KC.M, KC.SLSH,  KC.MS_LT, KC.MS_DN,  KC.MS_RT,\
                                              KC.MB_LMB, KC.MB_RMB, SPC_1,            BSPC_2,  ENT_3, KC.RGUI,
@@ -51,13 +51,13 @@ KMKKeyboard.keymap = [
         [  #기능2
              KC.TRNS,   KC.F1,   KC.F2,     KC.F3,    KC.F4,   KC.F5,                           KC.F6,     KC.F7,     KC.F8,   KC.F9 ,  KC.F10,  KC.F11,\
             KC.TRNS, KC.TRNS, KC.TRNS,   KC.TRNS,  KC.TRNS, KC.TRNS,                       KC.TRNS, KC.TRNS, KC.TRNS,  KC.TRNS, KC.MW_UP,  KC.F12,\
-            KC.TRNS, KC.TRNS, KC.TRNS,   KC.TRNS,  KC.TRNS, KC.TRNS,                         KC.TRNS,   KC.TRNS,   KC.TRNS,  KC.TRNS, KC.MW_DN, KC.TRNS,\
+            KC.TRNS, KC.TRNS, KC.TRNS,   KC.TRNS,  KC.TRNS, KC.TRNS,                         KC.TRNS,   KC.TRNS,   KC.TRNS,  KC.MW_LT, KC.MW_DN, KC.MW_RT,\
                                                 KC.TRNS, KC.TRNS,KC.TRNS,    KC.TRNS,  KC.TRNS, KC.TRNS,
         ],
         [  #기능3
-     KC.BLE_REFRESH,  KC.TRNS,  KC.VOLD,   KC.VOLU,  KC.TRNS, KC.TRNS,                         KC.TRNS,   KC.TRNS, KC.TRNS,  KC.TRNS, KC.TRNS, KC.TRNS,\
-             KC.HID,  KC.TRNS,  KC.TRNS,   KC.TRNS,  KC.TRNS, KC.TRNS,                         KC.TRNS,   KC.TRNS, KC.TRNS,  KC.TRNS, KC.TRNS, KC.TRNS,\
-         KC.BLE_CLR,  KC.TRNS,  KC.TRNS,   KC.TRNS,  KC.TRNS, KC.TRNS,                         KC.TRNS,   KC.TRNS, KC.TRNS,  KC.TRNS, KC.TRNS, KC.TRNS,\
+     KC.BLE_REFRESH,  KC.TRNS,  KC.VOLD,   KC.VOLU,  KC.TRNS, KC.TRNS,                         KC.TRNS,   KC.MB_LMB, KC.MB_RMB,  KC.TRNS, KC.TRNS, KC.TRNS,\
+             KC.HID,  KC.TRNS,  KC.TRNS,   KC.TRNS,  KC.TRNS, KC.TRNS,                         KC.LEFT,   KC.DOWN, KC.UP,  KC.RGHT, KC.MW_UP, KC.TRNS,\
+         KC.BLE_CLR,  KC.TRNS,  KC.TRNS,   KC.TRNS,  KC.TRNS, KC.TRNS,                         KC.TRNS,   KC.TRNS, KC.TRNS,  KC.MW_LT, KC.MW_DN, KC.MW_RT,\
                                                 KC.TRNS, KC.TRNS,KC.TRNS,    KC.TRNS,  KC.TRNS, KC.TRNS,
         ],
 
